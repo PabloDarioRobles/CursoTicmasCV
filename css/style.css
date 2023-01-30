@@ -1,0 +1,45 @@
+body{
+    background-color: rgb(234, 214, 214);
+}
+h1{
+    text-align: center;
+    font-weight: bold;
+    font-size: 100px;
+}
+span{
+    font-weight: bold;
+    text-decoration: underline;
+}
+.encabezado{
+    padding: 20px;
+    font-size: 25px;
+
+}
+
+.foto{
+    max-width: 300px;
+    max-height: 300px;
+}
+.datos{
+    padding-right: 50px;
+    font-weight: bold;
+}
+
+.fondo{
+    background-color: rgb(186, 183, 183);
+    border-radius: 5px;
+    padding: 2px 15px;
+}
+
+.boton{
+    border-radius: 5px;
+    text-decoration: none;
+    font-size: 35px;
+    background-color: rgb(249, 120, 15);
+    margin-top: 15px;
+}
+@media (min-width: 480px){
+    .encabezado{
+        display: flex;
+    }
+}
